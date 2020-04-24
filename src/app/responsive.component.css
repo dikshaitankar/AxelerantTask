@@ -25,7 +25,8 @@
     width: 33%;
   }
   .about-section-inner h1 {
-    width: 66%;
+    width: 83%;
+    font-size: 2rem;
   }
   .services {
     width: 80%;
@@ -62,13 +63,6 @@
   .client-info {
     margin-top: 4%;
   }
-}
-@media only screen and (max-width: 450px) {
-  header {
-    position: fixed;
-    background: black;
-    z-index: 1;
-  }
   .toggle-sidemenu {
     width: 20%;
     display: block;
@@ -86,9 +80,16 @@
   header .menu {
     display: none;
   }
-  .about-section-inner h1 {
-    width: 83%;
-    font-size: 2rem;
+  .get-in-touch {
+    display: block;
+    color: white;
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    width: 12%;
+  }
+  #mobile-menu ul li:nth-child(6) {
+    display: none;
   }
   .services {
     width: 100%;
@@ -105,6 +106,13 @@
     width: 20%;
     float: left;
     padding-left: 5%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  header {
+    position: fixed;
+    background: black;
+    z-index: 1;
   }
 
   .contact-us-form {
@@ -136,17 +144,7 @@
     width: 78%;
     display: inline-block;
   }
-  .get-in-touch {
-    display: block;
-    color: white;
-    font-size: 20px;
-    float: right;
-    text-align: right;
-    width: 12%;
-  }
-  #mobile-menu ul li:nth-child(6) {
-    display: none;
-  }
+
   .copy-right,
   .follow-us {
     width: 100%;
