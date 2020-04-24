@@ -1,0 +1,136 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="wrapper">
+  <header>
+    <span class="toggle-sidemenu" (click)="openNav()">&#9776;</span>
+    <div class="logo">
+      <h4>Company <span>Logo</span></h4>
+    </div>
+    <div class="menu">
+      <ul>
+        <li *ngFor="let menu of menus" class="fa"><a> {{menu}}</a></li>
+      </ul>
+    </div>
+    <div class="get-in-touch">
+      <i class="fa fa-envelope"></i>
+    </div>
+  </header>
+  <div id="mobile-menu">
+    <ul>
+      <li class="closebtn" (click)="closeNav()">&times;</li>
+      <li *ngFor="let menu of menus" class="fa"><a> {{menu}}</a></li>
+    </ul>
+  </div>
+  <div class="about-section">
+    <div class="about-section-inner">
+      <h1>Integer bibendum sit amet arcu vel agestas</h1>
+      <div class="services">
+        <div class="service-matter">
+          <i class="fa fa-group"></i>
+          <p>Service Name</p>
+        </div>
+        <div class="service-matter">
+          <i class="fa fa-gear"></i>
+          <p>Service Name</p>
+        </div>
+        <div class="service-matter">
+          <i class="fa fa-folder-o"></i>
+          <p>Service Name</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="client-section">
+    <div class="client-details">
+      <h2>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s.
+      </h2>
+      <p>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a more-or-less normal distribution of
+        letters, as opposed to using 'Content here, content here', making it
+        look like readable English. Many desktop publishing packages and web
+        page editors now use Lorem Ipsum as their default model text, and a
+        search for 'lorem ipsum' will uncover many web sites still in their
+        infancy.
+      </p>
+    </div>
+    <div class="clients-location">
+      <img src="../assets/images/map.png" />
+    </div>
+  </div>
+  <div class="testimonial-section">
+    <h2>Testimonials</h2>
+    <div class="message" *ngFor="let testimonial of testimonials">
+      <div class="client-message">
+        <i class="fa fa-quote-left"></i> {{testimonial.client_msg}}
+      </div>
+      <div class="dowm-arrow"></div>
+      <div class="client-info">
+        <img class="client-img" src="../assets/images/client-profile.png" />
+        <p>
+          {{testimonial.client_name}} <br />
+          Position, {{testimonial.client_position}}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="contact-us">
+    <div class="contact-us-details">
+      <h1>Convinced To Work With Us?</h1>
+      <h2>
+        Company has helped agencies keep their promises to clients since 2005.
+      </h2>
+      <form class="contact-us-form">
+        <div class="full-name">
+          <input
+            type="text"
+            class="form-control"
+            name="phone"
+            placeholder="Full name"
+          />
+        </div>
+        <div class="email">
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="phone">
+          <input
+            type="text"
+            class="form-control"
+            name="phone"
+            placeholder="Phone Number"
+          />
+        </div>
+        <div class="address">
+          <textarea
+            rows="3"
+            class="form-control"
+            placeholder="Message in brief"
+          ></textarea>
+        </div>
+        <div class="submit-btn">
+          <button class="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="copy-right">
+      <p>&copy; 2017 Company. All Rights Reserved.</p>
+    </div>
+    <div class="follow-us">
+      <p>
+        Follow us on: <i class="fa fa-facebook-square"></i>
+        <i class="fa fa-linkedin-square"></i> <i class="fa fa-twitter"></i>
+        <i class="fa fa-envelope"></i>
+      </p>
+    </div>
+  </footer>
+</div>

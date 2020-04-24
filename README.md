@@ -1,2 +1,0 @@
-# AxelerantTask
-Created with CodeSandbox

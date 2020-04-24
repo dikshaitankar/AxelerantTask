@@ -1,0 +1,175 @@
+@media only screen and (max-width: 1500px) {
+  .client-info {
+    margin-top: 6%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .about-section-inner h1 {
+    width: 50%;
+  }
+  .services {
+    width: 65%;
+  }
+  .dowm-arrow {
+    left: 66px;
+  }
+  .menu ul li:nth-child(5) {
+    padding: 1%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .menu {
+    width: 77%;
+  }
+  header .logo {
+    width: 33%;
+  }
+  .about-section-inner h1 {
+    width: 66%;
+  }
+  .services {
+    width: 80%;
+  }
+  .client-details,
+  .clients-location {
+    width: 100%;
+    padding: 4% 0;
+  }
+
+  .client-details h2,
+  .client-details p {
+    padding: 0 4%;
+  }
+  .contact-us-form {
+    width: 80%;
+  }
+  div.message:nth-child(3),
+  div.message:nth-child(4) {
+    display: none;
+  }
+  .message {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .dowm-arrow {
+    bottom: 70px;
+  }
+
+  .client-message {
+    padding: 10% 2%;
+  }
+
+  .client-info {
+    margin-top: 4%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  header {
+    position: fixed;
+    background: black;
+    z-index: 1;
+  }
+  .toggle-sidemenu {
+    width: 20%;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+  }
+
+  header .logo {
+    width: 60%;
+    text-align: center;
+    padding: 0;
+  }
+  header .menu {
+    display: none;
+  }
+  .about-section-inner h1 {
+    width: 83%;
+    font-size: 2rem;
+  }
+  .services {
+    width: 100%;
+  }
+  .service-matter {
+    width: 95%;
+    padding: 4% 0%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  .service-matter i {
+    font-size: 3rem;
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+  }
+
+  .contact-us-form {
+    width: 100%;
+  }
+  .full-name,
+  .email,
+  .phone {
+    width: 92%;
+    float: left;
+    margin: 1% 0;
+  }
+  .form-control {
+    padding: 4% 8px;
+  }
+  .address {
+    margin: 1% 0;
+    width: 94%;
+  }
+  .address textarea {
+    width: 100%;
+    padding: 2% 1%;
+  }
+  .submit-btn {
+    margin-top: 6%;
+  }
+  .contact-us-details h1,
+  .contact-us-details h2 {
+    width: 78%;
+    display: inline-block;
+  }
+  .get-in-touch {
+    display: block;
+    color: white;
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    width: 12%;
+  }
+  #mobile-menu ul li:nth-child(6) {
+    display: none;
+  }
+  .copy-right,
+  .follow-us {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .about-section,
+  .client-section,
+  .testimonial-section,
+  .contact-us,
+  footer {
+    position: relative;
+    top: 60px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .submit {
+    width: 27%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .service-matter i {
+    font-size: 2rem;
+  }
+}
